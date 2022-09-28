@@ -132,18 +132,20 @@
 
     /* ================================================================================================== */
     .v-container {
-        margin-top: 4.5rem;
-
+        height: 50vh;
+    
     }
-
     .v-container__img {
-        position: absolute;
-        right: 4.5rem;
-        bottom: 4rem;
-        width: 70%;
-        height: 40vh;
+      width: 70%;
+      height: 70%;
+    } 
+    .v-container__filter {
+        width: 100%;
+        height: 50vh; 
     }
-
+    /* .v-container__btn {
+        width: 15%;
+    } */
     .card__wrapper {
         width: 80%;
         display: grid;

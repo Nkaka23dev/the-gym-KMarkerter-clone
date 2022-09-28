@@ -226,7 +226,7 @@ body {
     text-transform: none;
 }
 .v-container {
-    height: 40vh;
+    height: 70vh;
     background-color: #16697A;
     position: relative;
     margin-top: 8rem;
@@ -234,13 +234,19 @@ body {
 }
 .v-container__img {
   position: absolute;
-  right: 20rem;
-  bottom: 3rem;
+  right: 50%;
+  bottom: 50%;
+  transform: translate(50%);
   width: 50%;
 } 
+.v-container__btn {
+    position: absolute;
+    right: 50%;
+    transform: translate(50%);
+}
 .v-container__filter {
     width: 100%;
-    height: 39.3vh; 
+    height: 70vh; 
 }
 /* =================================================================================================== */
 .sub-h-container--bg-white {
