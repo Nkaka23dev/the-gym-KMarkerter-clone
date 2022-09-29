@@ -48,7 +48,7 @@
         display: block;
     }
 
-    .navbar-container__menu-items-sm {
+    .navbar-container-sm {
         display: flex;
         flex-direction: column;
     }
@@ -81,7 +81,7 @@
 
         letter-spacing: 0.2px;
     }
-
+   
     .btns {
         display: flex;
         flex-direction: column;
@@ -94,10 +94,10 @@
     .p-text--sm {
         font-size: 35px !important;
         line-height: 45px !important;
-        text-transform: uppercase;
+        text-transform: small;
     }
 
-    .page-text__sub-txt--sm {
+    .p-sub-text--sm {
         font-size: 12px;
         line-height: 20px;
         padding: 20px 0;
@@ -139,7 +139,7 @@
         height: 50vh; 
     }
 
-    .card__wrapper {
+    .card-wrapper {
         width: 80%;
         display: grid;
         gap: 20px;

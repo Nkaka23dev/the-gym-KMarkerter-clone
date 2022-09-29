@@ -59,7 +59,7 @@ body {
     display: none;
 }
 
-.navbar-container__menu-items-sm {
+.navbar-container-sm {
     display: none;
 }
 
@@ -91,7 +91,7 @@ body {
     color: #252B42;
 }
 
-.page-text__sub-txt {
+.p-sub-text{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 300;
@@ -103,6 +103,10 @@ body {
 
 
     color: #737373;
+} 
+
+.p-text--upper {
+    text-transform: uppercase;
 }
 
 .btns {
@@ -132,13 +136,12 @@ body {
 }
 
 .p-text--sm {
-    font-weight: 700 !important;
-    font-size: 30px !important;
-    line-height: 57px !important;
-    text-transform: uppercase;
+    font-weight: 700; 
+    font-size: 30px;
+    line-height: 57px;
 }
 
-.page-text__sub-txt--sm {
+.p-sub-text--sm {
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
@@ -190,12 +193,6 @@ body {
 }
 
 /* ================================================================================================================= */
-.p-text-sm--normal {
-    font-weight: 700 !important;
-    font-size: 25px !important;
-    line-height: 40px !important;
-    text-transform: none;
-}
 
 .v-container {
     height: 70vh;
@@ -244,7 +241,7 @@ body {
     background-color: white;
 }
 
-.card__wrapper {
+.card-wrapper {
     width: 80%;
     display: grid;
     gap: 20px;
@@ -339,10 +336,6 @@ body {
 
 .form-input__control {
     padding: 0.5rem 1.5rem;
-}
-
-input[type=submit]:hover {
-    background-color: #45a049;
 }
 
 .form-container__text {
@@ -482,7 +475,7 @@ input[type=submit]:hover {
     padding: 1.5rem 0rem;
 }
 
-.footer-content--unbordered {
+.footer__content--unbordered {
     border-bottom: none;
 
 }
