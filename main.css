@@ -15,9 +15,7 @@ body {
     display: flex;
     justify-content: end;
     align-items: end;
-
 }
-
 .logo {
     color: #252B42
 }
@@ -26,6 +24,13 @@ body {
     color: white;
 }
 
+.logo--sm {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
 .navbar-container {
     display: flex;
     justify-content: space-between;
@@ -33,7 +38,6 @@ body {
     padding: 1.5rem 1rem;
     width: 92%;
 }
-
 .navbar-container__items-wrapper {
     display: flex;
     justify-content: space-between;
@@ -91,7 +95,7 @@ body {
     color: #252B42;
 }
 
-.p-sub-text{
+.p-sub-text {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 300;
@@ -100,10 +104,8 @@ body {
     padding: 20px 0;
     text-align: center;
     letter-spacing: 0.2px;
-
-
     color: #737373;
-} 
+}
 
 .p-text--upper {
     text-transform: uppercase;
@@ -136,7 +138,7 @@ body {
 }
 
 .p-text--sm {
-    font-weight: 700; 
+    font-weight: 700;
     font-size: 30px;
     line-height: 57px;
 }
@@ -496,14 +498,6 @@ body {
     background-color: #16697A;
 }
 
-.logo--sm {
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 24px;
-    letter-spacing: 0.2px;
-    color: #FFFFFF;
-}
-
 .footer-title {
     font-weight: 700;
     font-size: 13px;
@@ -532,13 +526,11 @@ body {
     padding: 0.5rem 1rem;
 
 }
-
 .btn-input {
     position: absolute;
     top: 0;
     right: 0;
 }
-
 .btn--footer {
     border-radius: 2px;
     padding: 3.3px 7px;
